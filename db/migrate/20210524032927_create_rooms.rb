@@ -6,7 +6,7 @@ class CreateRooms < ActiveRecord::Migration[6.1]
       t.integer :accomodate
       t.integer :bedroom
       t.integer :bathroom
-      t.text :summary
+      t.text :description
       t.string :address
       t.boolean :is_tv
       t.boolean :is_kitchen

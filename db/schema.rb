@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 2021_05_24_054629) do
     t.integer "accomodate"
     t.integer "bedroom"
     t.integer "bathroom"
-    t.text "summary"
+    t.text "description"
     t.string "address"
     t.boolean "is_tv"
     t.boolean "is_kitchen"
