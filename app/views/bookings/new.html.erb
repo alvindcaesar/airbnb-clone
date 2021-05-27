@@ -1,0 +1,13 @@
+<h2>Create New Booking</h2><br>
+
+<%= form_for @booking do |f| %>
+
+<%= f.label :start_date %>
+<%= f.datetime_field :start_date %>
+
+%= f.label :end_date %>
+<%= f.datetime_field :end_date %>
+
+<%=f.submit %>
+
+<% end %>
